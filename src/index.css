@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  max-width: 550px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.1;
+  color: #222;
+}
+
+[class*="__container"] {
+  padding-left: 30px;
+  padding-right: 30px;
+}
